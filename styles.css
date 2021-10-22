@@ -2,6 +2,7 @@
     --black:#111827;
     --white: #eee;
     --gray-800: #1F2937;
+    --gray-700: #374151;
     --gray-600: #4B5563;
     --gray-500: #6B7280;
     --gray-400: #9CA3AF;
@@ -56,6 +57,7 @@ ul {
     font-family: 'Lobster', cursive;
     margin: 0;
     padding: 0;
+    filter: drop-shadow(1rem 1rem 2rem var(--gray-800));
 }
 
 .hero .h2{
